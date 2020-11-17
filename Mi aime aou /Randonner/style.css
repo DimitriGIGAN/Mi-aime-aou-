@@ -1,0 +1,71 @@
+body{
+
+    background: url(IMG/Reunion.jpg);
+    background-size: cover;
+  
+}
+
+
+.menuNav{ 
+
+ 
+     box-shadow: 0px 3px 105px 0px rgba(0, 0, 0, 0.86);
+  
+    
+  }
+  .menuNav--boutton
+{
+   
+	display: block;
+
+
+
+	
+    margin: 4px;
+  padding: 1px;
+  border-inline-start: bevel;
+	
+  height: 70px ;
+  text-align: center;
+   
+    padding: 1rem 2rem;
+    display: inline-block;
+    
+    margin: 1rem;
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 85px -5px rgb(255, 251, 0) inset;
+    padding-top: -1em;
+    text-align: center;
+    color: #fff;
+    text-align: center;
+}
+.menuNav--boutton::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparentd;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    
+  }
+
+.menuNav--boutton:hover{
+color: rgb(0, 0, 0);
+
+
+
+
+transition: 3s all ease  ;
+
+  
+         
+}
+.randonné{
+  text-shadow: 2px 2px 2px black; 
+}
